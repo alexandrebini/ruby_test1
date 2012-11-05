@@ -1,0 +1,23 @@
+class Game
+  include Slug
+  attr_accessor :developer, :name, :ratings, :views
+
+  def initialize(options)
+    @developer = options[:developer]
+    @name = options[:name]
+    @ratings = options[:ratings]
+    @views = options[:views]
+  end
+
+  def ratings
+    @ratings || {}
+  end
+
+  def slug
+    to_slug(@name)
+  end
+
+  def views
+    @views || []
+  end
+end

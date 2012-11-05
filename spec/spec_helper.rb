@@ -1,0 +1,6 @@
+require_relative './../lib/slug'
+require_relative './../models/download'
+require_relative './../models/game'
+require_relative './../models/external_game'
+require_relative './../models/normal_game'
+require_relative './../models/partner_game'
