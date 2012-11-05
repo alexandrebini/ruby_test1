@@ -1,3 +1,4 @@
+require_relative './../lib/analytics'
 require_relative './../lib/slug'
 require_relative './../models/download'
 require_relative './../models/game'

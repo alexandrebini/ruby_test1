@@ -37,4 +37,11 @@ describe 'Download' do
   it 'slug should not have special characters' do
     @download.slug.should == 'slender-mans-shadow-prison'
   end
+
+  it 'should be able to get total views' do
+    p @download.total_views
+
+    lambda{  }.should_not raise_error
+    @download.total_views.should == 100
+  end
 end

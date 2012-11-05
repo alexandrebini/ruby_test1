@@ -1,5 +1,8 @@
 class Game
   include Slug
+  include Analytics
+
+  has_analytics :views
   attr_accessor :developer, :name, :ratings, :views
 
   def initialize(options)

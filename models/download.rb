@@ -1,5 +1,8 @@
 class Download
   include Slug
+  include Analytics
+
+  has_analytics :counter
   attr_accessor :counter, :name, :url
 
   def initialize(options)

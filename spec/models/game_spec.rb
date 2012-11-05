@@ -74,4 +74,8 @@ describe 'Game' do
     lambda{ @game.publisher }.should raise_error
   end
 
+  it 'should be able to get total views' do
+    lambda{ @game.total_views }.should_not raise_error
+    @game.total_views.should == 100
+  end
 end
