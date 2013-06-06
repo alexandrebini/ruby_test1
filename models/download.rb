@@ -10,6 +10,7 @@ class Download
     @name = options[:name]
     @url = options[:url]
     @slug = options[:name]
+    @foo = bar
   end
 
   def counter
