@@ -8,6 +8,7 @@ class Download
   def initialize(options)
     @counter = options[:counter]
     @name = options[:name]
+    @url = options[:url]
     @slug = options[:name]
   end
 
