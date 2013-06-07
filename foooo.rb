@@ -5,6 +5,3 @@ afasfa
 
 as
 fsa
-saf
-asf
-asf
