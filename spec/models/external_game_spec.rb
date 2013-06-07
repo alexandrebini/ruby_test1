@@ -10,7 +10,6 @@ describe 'ExternalGame' do
 
   it 'should extends Game' do
     ExternalGame.ancestors.include?(Game).should be_true
-    aaaaaaa
   end
 
   it 'should have an url' do
@@ -19,6 +18,7 @@ describe 'ExternalGame' do
   end
 
   it 'should not have instructions' do
+    asdss
     lambda{ @game.instructions }.should raise_error
   end
 end

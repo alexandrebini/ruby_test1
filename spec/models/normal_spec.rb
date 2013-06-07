@@ -9,6 +9,5 @@ describe 'NormalGame' do
     game = NormalGame.new(instructions: 'bar')
     lambda{ game.instructions }.should_not raise_error
     game.instructions.should == 'bar'
-    cccccccccc
   end
 end
