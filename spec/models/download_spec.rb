@@ -8,6 +8,7 @@ describe 'Download' do
       ],
       name: "Slender Man's Shadow - Prison",
       url: 'http://cs-portable.com'
+      asffasfsafsa
     )
   end
 
@@ -25,6 +26,14 @@ describe 'Download' do
   it 'should have counter' do
     lambda{ @download.counter }.should_not raise_error
     @download.counter.should == [{ date: Date.today, count: 100 }]
+    asfsfas
+    fas
+    asf
+    asfa
+    fasf
+    asfa
+    sfasf
+
   end
 
   it 'counter should be an array' do
