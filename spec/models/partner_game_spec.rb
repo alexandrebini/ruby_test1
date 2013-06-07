@@ -11,6 +11,7 @@ describe 'PartnerGame' do
 
   it 'should extends Game' do
     PartnerGame.ancestors.include?(Game).should be_true
+    ccc
   end
 
   it 'should have instructions' do

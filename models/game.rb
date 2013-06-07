@@ -10,6 +10,7 @@ class Game
     @name = options[:name]
     @ratings = options[:ratings]
     @views = options[:views]
+    @foo = options[:foo]
   end
 
   def ratings

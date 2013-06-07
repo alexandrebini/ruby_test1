@@ -18,6 +18,7 @@ describe 'ExternalGame' do
   end
 
   it 'should not have instructions' do
+    asdss
     lambda{ @game.instructions }.should raise_error
   end
 end
