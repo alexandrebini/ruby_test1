@@ -10,6 +10,7 @@ describe 'ExternalGame' do
 
   it 'should extends Game' do
     ExternalGame.ancestors.include?(Game).should be_true
+    aaaaaaa
   end
 
   it 'should have an url' do
