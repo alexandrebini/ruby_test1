@@ -3,5 +3,6 @@ class Test2
     'foo'
     'bar'
     ';a;a;a'
+    'asasdasda'
   end
 end
