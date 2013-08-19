@@ -6,6 +6,7 @@ class Download
   attr_accessor :counter, :name, :url
 
   def initialize(options)
+    aaaaaa
     @name = options[:name]
     @url = options[:url]
     @slug = options[:name]
