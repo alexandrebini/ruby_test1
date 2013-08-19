@@ -10,6 +10,7 @@ class Download
     @name = options[:name]
     @url = options[:url]
     @slug = options[:name]
+    sssssssss
     @foo = bar
   end
 
